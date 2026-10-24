@@ -6,7 +6,7 @@ import os
 from threading import Thread
 
 # ── bump this AND version.txt on github every update ──
-LOCAL_VERSION = "1.0"
+LOCAL_VERSION = "1.1"
 
 RAW_BASE    = "https://raw.githubusercontent.com/ImH0boAlt/test/main"
 VERSION_URL = f"{RAW_BASE}/version.txt"
@@ -85,7 +85,7 @@ class App(tk.Tk):
         tk.Frame(self, bg=BG2, pady=20).pack(fill="x")
 
         tk.Label(
-            self, text="hello",
+            self, text="hello bitch.",
             bg=BG, fg=FG,
             font=("Segoe UI", 32, "bold"),
         ).pack(pady=24)
